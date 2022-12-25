@@ -38,7 +38,7 @@ const Footer = () => {
                 About Me
             </h4>
             <p>
-                This is me Supriya Muppu.  
+                I am Supriya Muppu.  
                 I enjoy discussing new peojects and design challenges
             </p>
             <div className="social">
