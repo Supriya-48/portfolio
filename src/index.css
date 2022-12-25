@@ -30,6 +30,9 @@ ul{
   background: transparent;
   color: #fff;
 }
+.btn a{
+  color: #222;
+}
 .btn:hover{
   background: rgba(255, 255, 255, 0.2);
   color: #fff;

@@ -46,14 +46,14 @@ const Footer = () => {
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              <FaGithub
+              <a href="https://github.com/Supriya-48"><FaGithub
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              <FaLinkedin
+              /></a>
+              <a href="https://www.linkedin.com/in/supriya-muppu/"><FaLinkedin
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
-              />
+              /></a>
             </div>
         </div>
       </div>
