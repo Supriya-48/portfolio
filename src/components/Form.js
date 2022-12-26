@@ -1,22 +1,29 @@
-import "./FormStyles.css"
-import React from 'react'
-
+import './FormStyles.css';
+import emailjs from '@emailjs/browser';
+import React,{useState} from 'react'
 const Form = () => {
+    const [ack,setAck]=useState("");
+    const handleSubmit = (e) =>{
+      setAck("Email Sent!")
+      e.preventDefault();
+      emailjs.sendForm('service_y6hbv8f','template_9dc3zns',e.target,'PGhv1a4ag0u0GueAX');
+    }
   return (
-    <div className="form">
-        <form>
-            <label>Your Name</label>
-            <input type="text" placeholder="Please type your name here"></input>
-            <label>Email</label>
-            <input type="text" placeholder="Enter Email"></input>
-            <label>Subject</label>
-            <input type="text" placeholder="Enter Subject"></input>
-            <label>Message</label>
-            <textarea rows="6" placeholder="Add Message"/>
+
+        <form onSubmit={handleSubmit} className='form'>
+          
+          <label htmlFor="name">Name</label>
+            <input type="input" name ="name_from" id="name_from" placeholder="Enter Your Name"></input>
+
+            <label htmlFor="email">Email</label>
+            <input type="input" id="email_from" name="email_from" placeholder="Enter Your Email"></input>
+    
+            <label htmlFor="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Enter Your Message"/>
             <button className="btn">Submit</button>
+            <p>{ack}</p>
         </form>
-    </div>
   )
 }
 
-export default Form
+export default Form;
