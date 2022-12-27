@@ -13,13 +13,13 @@ const Form = () => {
         <form onSubmit={handleSubmit} className='form'>
           
           <label htmlFor="name">Name</label>
-            <input type="input" name ="name_from" id="name_from" placeholder="Enter Your Name"></input>
+            <input type="input" name ="name_from" id="name_from" placeholder="Enter Your Name" required></input>
 
             <label htmlFor="email">Email</label>
-            <input type="input" id="email_from" name="email_from" placeholder="Enter Your Email"></input>
+            <input type="input" id="email_from" name="email_from" placeholder="Enter Your Email" required></input>
     
             <label htmlFor="message">Message</label>
-            <textarea id="message" name="message" rows="6" placeholder="Enter Your Message"/>
+            <textarea id="message" name="message" rows="6" placeholder="Enter Your Message" required/>
             <button className="btn">Submit</button>
             <p>{ack}</p>
         </form>
