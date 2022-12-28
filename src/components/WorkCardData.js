@@ -1,5 +1,5 @@
 import { FaLongArrowAltUp } from "react-icons/fa";
-import pro1 from "../assets/imgPro1.jpg"
+import pro1 from "../assets/blank.jpeg"
 import pro2 from "../assets/pro2.png"
 import pro3 from "../assets/imgPro1.jpg"
 const ProjectCardData=[
@@ -7,7 +7,7 @@ const ProjectCardData=[
     imgsrc:pro1,
     title:"Virtual Art Gallery",
     text:"A virtual art gallery with basic user authentication like login,register,change password and logout. A logged in user can like an image or open image carousel by clicking on any image. The tech stalk used is java,Spring boot and react js and PostgresSql",
-    source:"https://google.com"
+    source:""
  },
  {
     imgsrc:pro2,
