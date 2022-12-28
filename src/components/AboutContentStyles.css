@@ -13,13 +13,16 @@
     padding: 1rem;
     max-width: 350px;
 }
+.about .right{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
 .about .left p{
     margin: 1.2rem 0;
 }
-.about .right{
-    max-width: 700px;
-}
-.right .img-container{
+/* .right .img-container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     position: relative;
@@ -40,4 +43,4 @@
     grid-column: 4/-1;
     grid-row: 1;
     z-index: 5;
-}
+} */
