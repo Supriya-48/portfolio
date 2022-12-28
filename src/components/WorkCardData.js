@@ -1,6 +1,6 @@
 import { FaLongArrowAltUp } from "react-icons/fa";
 import pro1 from "../assets/imgPro1.jpg"
-import pro2 from "../assets/imgPro1.jpg"
+import pro2 from "../assets/pro2.png"
 import pro3 from "../assets/imgPro1.jpg"
 const ProjectCardData=[
  {
@@ -11,17 +11,17 @@ const ProjectCardData=[
  },
  {
     imgsrc:pro2,
-    title:"Pizzeria",
-    text:"A website for ordering pizza ",
-    view :"https://google.com",
-    source:"https://google.com"
+    title:"Us To You",
+    text:"A frontend static website for ordering food built using react js and material UI .It contains four pages- Home, About, Menu and Contact.",
+    view :"https://supriya-48.github.io/food-ordering-app/",
+    source:"https://github.com/Supriya-48/food-ordering-app"
  },
  {
     imgsrc:pro3,
     title:"Pizzeria Website",
-    text:"A website for ordering pizza ",
-    view :"https://google.com",
-    source:"https://google.com"
+    text:"A Static website for ordering pizza built using Angular Js . Here the user can customize the pizza by choosing his/her favourite toppings and the price of pizza is calculated accordingly.",
+    view :"",
+    source:""
  }   
 ]
 
